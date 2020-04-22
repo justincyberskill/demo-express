@@ -1,0 +1,27 @@
+{
+  "books": [
+    {
+      "id": "fRTrqiUFd",
+      "name": "dac nhan tam",
+      "description": "Sach hay nhat thoi dai"
+    },
+    {
+      "id": "k5KZsdBwR",
+      "name": "Running lean",
+      "description": "Best seller book for startup"
+    }
+  ],
+  "users": [
+    {
+      "id": "jsdJ04y3l",
+      "name": "thong",
+      "age": "20"
+    },
+    {
+      "id": "6SeSpqUjh",
+      "name": "thinh",
+      "age": "30"
+    }
+  ],
+  "transactions": []
+}

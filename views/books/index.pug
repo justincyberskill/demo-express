@@ -1,0 +1,20 @@
+h1 Library show
+
+h3 Search your book
+form(action="/books/search" method="GET")
+  input(type="text" placeholder="Enter something" name="name")
+  button(type="submmit") Search
+
+a(href="books/create") Add new book
+
+h3 List of books
+if books.length
+  ul
+    each book in books
+      li
+        b= book.name
+        a(href="/books/" + book.id) View
+        br
+        span= book.description
+else
+  div Chua co sach
