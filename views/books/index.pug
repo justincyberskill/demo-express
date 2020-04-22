@@ -2,7 +2,7 @@ h1 Library show
 
 h3 Search your book
 form(action="/books/search" method="GET")
-  input(type="text" placeholder="Enter something" name="name")
+  input(type="text" placeholder="Enter something" name="name" value=searchValue)
   button(type="submmit") Search
 
 a(href="books/create") Add new book
